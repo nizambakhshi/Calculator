@@ -46,6 +46,17 @@ import SIPCalculator from './pages/finance/SIPCalculator';
 import StepUpSIPCalculator from './pages/finance/StepUpSIPCalculator';
 import SWPCalculator from './pages/finance/SWPCalculator';
 import STPCalculator from './pages/finance/STPCalculator';
+import ROICalculator from './pages/finance/ROICalculator';
+import Rule72Calculator from './pages/finance/Rule72Calculator';
+
+// Loan/Mortgage calculators
+import LoanComparisonCalculator from './pages/loan/LoanComparisonCalculator';
+
+// Retirement calculators
+import RetirementPlannerCalculator from './pages/retirement/RetirementPlannerCalculator';
+
+// Stock calculators
+import StockReturnCalculator from './pages/stock/StockReturnCalculator';
 
 // Conversion tools
 import SpeedConverter from './pages/converters/SpeedConverter';
@@ -114,6 +125,17 @@ function App() {
           <Route path="/stepup-sip-calculator" element={<StepUpSIPCalculator />} />
           <Route path="/swp-calculator" element={<SWPCalculator />} />
           <Route path="/stp-calculator" element={<STPCalculator />} />
+          <Route path="/roi-calculator" element={<ROICalculator />} />
+          <Route path="/rule-72-calculator" element={<Rule72Calculator />} />
+
+          {/* Loan/Mortgage calculators */}
+          <Route path="/loan-comparison-calculator" element={<LoanComparisonCalculator />} />
+
+          {/* Retirement calculators */}
+          <Route path="/retirement-planner" element={<RetirementPlannerCalculator />} />
+
+          {/* Stock calculators */}
+          <Route path="/stock-return-calculator" element={<StockReturnCalculator />} />
 
           {/* Conversion tools */}
           <Route path="/speed-converter" element={<SpeedConverter />} />

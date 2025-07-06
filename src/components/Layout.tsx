@@ -34,6 +34,32 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         { name: 'Step-up SIP Calculator', href: '/stepup-sip-calculator', icon: '📈' },
         { name: 'SWP Calculator', href: '/swp-calculator', icon: '💰' },
         { name: 'STP Calculator', href: '/stp-calculator', icon: '🔄' },
+        { name: 'ROI Calculator', href: '/roi-calculator', icon: '📈' },
+        { name: 'Rule of 72 Calculator', href: '/rule-72-calculator', icon: '⏰' },
+        { name: 'Compound Interest Calculator', href: '/compound-interest-calculator', icon: '📊' },
+      ]
+    },
+    {
+      name: 'Loan & Mortgage',
+      items: [
+        { name: 'Loan Calculator', href: '/loan-calculator', icon: '₹' },
+        { name: 'Loan Comparison Calculator', href: '/loan-comparison-calculator', icon: '⚖️' },
+        { name: 'Mortgage Calculator', href: '/mortgage-calculator', icon: '🏠' },
+      ]
+    },
+    {
+      name: 'Retirement',
+      items: [
+        { name: 'Retirement Planner', href: '/retirement-planner', icon: '🎯' },
+        { name: 'Retirement Calculator', href: '/retirement-calculator', icon: '👴' },
+      ]
+    },
+    {
+      name: 'Stock & Investment',
+      items: [
+        { name: 'Stock Return Calculator', href: '/stock-return-calculator', icon: '📈' },
+        { name: 'Investment Calculator', href: '/investment-calculator', icon: '💰' },
+        { name: 'ROI Calculator', href: '/roi-calculator', icon: '📊' },
       ]
     },
     {
@@ -47,28 +73,28 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       ]
     },
     {
-      name: 'Construction',
+      name: 'Construction & Building',
       items: [
         { name: 'Area Calculator', href: '/area-calculator', icon: '📐' },
-        { name: 'Volume Calculator', href: '/volume-calculator', icon: '📦' },
+        { name: 'Volume Calculator', href: '/volume-converter', icon: '📦' },
         { name: 'Concrete Calculator', href: '/concrete-calculator', icon: '🏗️' },
         { name: 'Carpentry Calculator', href: '/carpentry-calculator', icon: '🔨' },
         { name: 'Tile Calculator', href: '/tile-calculator', icon: '🧱' },
       ]
     },
     {
-      name: 'Conversions',
+      name: 'Unit Converters',
       items: [
         { name: 'Length Converter', href: '/length-converter', icon: '📏' },
         { name: 'Weight Converter', href: '/weight-converter', icon: '⚖️' },
         { name: 'Temperature Converter', href: '/temperature-converter', icon: '🌡️' },
         { name: 'Speed Converter', href: '/speed-converter', icon: '🚗' },
-        { name: 'Cooking Converter', href: '/cooking-converter', icon: '👨‍🍳' },
         { name: 'Volume Converter', href: '/volume-converter', icon: '🥤' },
+        { name: 'Cooking Converter', href: '/cooking-converter', icon: '👨‍🍳' },
       ]
     },
     {
-      name: 'Sports',
+      name: 'Sports & Fitness',
       items: [
         { name: 'Pace Calculator', href: '/pace-calculator', icon: '🏃' },
         { name: 'Bike Speed Calculator', href: '/bike-speed-calculator', icon: '🚴' },
@@ -77,7 +103,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       ]
     },
     {
-      name: 'Calculators',
+      name: 'General Calculators',
       items: [
         { name: 'Basic Calculator', href: '/basic-calculator', icon: '🧮' },
         { name: 'Scientific Calculator', href: '/scientific-calculator', icon: '🔬' },
@@ -85,7 +111,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       ]
     },
     {
-      name: 'Miscellaneous',
+      name: 'Miscellaneous Tools',
       items: [
         { name: 'Age Calculator', href: '/age-calculator', icon: '🎂' },
         { name: 'Time Calculator', href: '/time-calculator', icon: '⏰' },
